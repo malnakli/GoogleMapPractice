@@ -3,18 +3,25 @@
   <head>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
     <link rel="stylesheet" type="text/css" href="css/main.css">
+     <link rel="stylesheet" type="text/css" href="css/global.css">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
     <script type="text/javascript"
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxbfx7f2swoIUZrI1huzth05j4TnWPdhQ&sensor=false">
     </script>
     
   </head>
   <body>
-  <script type="text/javascript"
-      src="js/main.js">
-    </script>
-    <div class ="circle">
-    <div id="map-canvas">
-    </div>
-    </div>
+  <!-- the order of the script cannot be changed unless you know what you are doing-->
+  <script type="text/javascript" src="js/jquery-2.1.1.min.js"> </script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/mapControl.js"></script>
+	
+
+	<div id="outer-map" class ="circle">
+		<span  id ="button-chevron-right" class="fa fa-chevron-right clickable"> </span>
+		<span  id ="button-chevron-left" class="fa fa-chevron-left clickable"> </span>
+		<div id="map-canvas">
+		</div>
+	</div>
   </body>
 </html>
