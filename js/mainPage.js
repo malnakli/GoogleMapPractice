@@ -2,13 +2,13 @@
 function initialize() {
 
       var mapOptions = {
-          center: new google.maps.LatLng(11.867351,-5.273437),
-          zoom: 1,
+          center: new google.maps.LatLng(11.289703, -81.464677),
+          zoom: 2,
           disableDefaultUI: true,
           disableDoubleClickZoom: true,
           draggable: false,
           keyboardShortcuts: false,
-          minZoom:1,
+          minZoom:2,
         };
        
         var mapStyle = [
